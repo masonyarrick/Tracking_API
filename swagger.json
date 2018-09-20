@@ -166,16 +166,13 @@
         "produces" : [ "application/json" ],
         "parameters" : [ {
           "in" : "body",
-          "name" : "workPerformance",
+          "name" : "performanceInfo",
           "schema" : {
             "type" : "object",
-            "required" : [ "workPerformances", "materialLots", "equipment" ],
+            "required" : [ "workPerformance", "materialLots", "equipment" ],
             "properties" : {
-              "workPerformances" : {
-                "type" : "array",
-                "items" : {
-                  "$ref" : "#/definitions/WorkPerformance"
-                }
+              "workPerformance" : {
+                "$ref" : "#/definitions/WorkPerformance"
               },
               "materialLots" : {
                 "type" : "object",
@@ -756,6 +753,6 @@
     }
   },
   "host" : "virtserver.swaggerhub.com",
-  "basePath" : "/BHP7/Tracking_API/1.0.0",
-  "schemes" : [ "https" ]
+  "schemes" : [ "https" ],
+  "basePath" : "/BHP_TECH_SI/Tracking_API/1.0.0"
 }
