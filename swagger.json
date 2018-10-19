@@ -635,7 +635,7 @@
     },
     "MaterialLot" : {
       "type" : "object",
-      "required" : [ "id", "version", "hierarchyScopeId", "effectiveFrom", "effectiveTo" ],
+      "required" : [ "id", "version", "storageLocationId", "effectiveFrom", "effectiveTo" ],
       "properties" : {
         "id" : {
           "type" : "string",
