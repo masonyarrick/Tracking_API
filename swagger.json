@@ -183,12 +183,6 @@
                       "$ref" : "#/definitions/MaterialLot"
                     }
                   },
-                  "changed" : {
-                    "type" : "array",
-                    "items" : {
-                      "$ref" : "#/definitions/MaterialLot"
-                    }
-                  },
                   "deleted" : {
                     "type" : "array",
                     "items" : {
@@ -201,12 +195,6 @@
                 "type" : "object",
                 "properties" : {
                   "added" : {
-                    "type" : "array",
-                    "items" : {
-                      "$ref" : "#/definitions/EquipmentItem"
-                    }
-                  },
-                  "changed" : {
                     "type" : "array",
                     "items" : {
                       "$ref" : "#/definitions/EquipmentItem"
