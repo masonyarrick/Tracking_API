@@ -381,12 +381,12 @@
         "startTime" : {
           "type" : "string",
           "description" : "The starting time of this job response.",
-          "example" : "201809141500"
+          "example" : "2018-01-24T00:00:00Z"
         },
         "endTime" : {
           "type" : "string",
           "description" : "The ending time of this job response.",
-          "example" : "201809141600"
+          "example" : "2018-01-24T00:00:00Z"
         },
         "hierarchyScopeId" : {
           "type" : "string",
